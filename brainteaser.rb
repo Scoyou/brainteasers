@@ -1,4 +1,4 @@
-def second_lowest(arr)
+def second_lowest_highest(arr)
   second_greatest = arr.index(arr.max(2).last)
   sorted = arr.sort
   puts "Second greatest #{arr[second_greatest]}"
